@@ -3,21 +3,21 @@
 <b>Write a class by name Employee with following fields id,name,dept,salary,dateOfJoin</b>
 <br/><br/>
 
-Create an EmployeeRepository with two methods
-void addEmployee(Employee e);
-List<Employee> findAllEmployees();
+Create an <b>EmployeeRepository</b> with two methods
+<br/><br/>void addEmployee(Employee e);<br>
+>List<Employee> findAllEmployees();
 
-Write an implementation of this interface as EmployeeRepositoryListImpl and make a list of
+Write an implementation of this interface as <b>EmployeeRepositoryListImpl</b> and make a list of
 5 employees in it, override the addEmployee and add the employee to the list ,also override
 the findAllEmployee() which returns all the employees in the list.
 
 <br>-----------------------------------------------------<br>
 
-Write a EmployeeService with two methods
-void addEmployee(Employee e);
+Write a <b>EmployeeService</b> with two methods
+<br>void addEmployee(Employee e);<br>
 List<Employee> findAllEmployees();
 
-Write an implementation of this interface as EmployeeServiceListImpl and override the
+Write an implementation of this interface as <b>EmployeeServiceListImpl</b> and override the
 methods apply the business logic as per the implementation done for Customer
 
 <br>-----------------------------------------------------<br>
